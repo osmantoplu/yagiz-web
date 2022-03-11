@@ -9,13 +9,13 @@
       "Adalet Bakanlığının Adliye çalışmaları",
       "İhale İşlemleri",
       "Savunma Sanayi",
-      "Tarım alanında vazgeçilmez bir teknoloji"
+      "Tarım Alanında Vazgeçilmez Bir Teknoloji"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Dijital Ortamda Ve Otonom Takip",
+      "İhalelerin Artık Sanal Ortamda Yapılması",
+      "Tapu Ve Noter işlemleri",
+      "Ve Daha Bir Çok Proje.."
     ]
   },
   "Gallery": [
@@ -68,40 +68,40 @@
   "Services": [
     {
       "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Özel Yazılım",
+      "text": "Paket Programlar ile istediği proje yönetimini sağlayaman firmalar için özel olarak terzi dikimi yazılımlar geliştiriyoruz. "
     },
     {
       "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Web Tasarım",
+      "text": "Dijital dünyanın trendlerini yakından takip ediyor; modern tasarımlarla talep ve isteklerinize yönelik kullanıcı deneyimi odaklı tasarımlar çıkarıyoruz."
     },
     {
       "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Mobil Uygulama",
+      "text": "Hayal ettiğiniz projeleri mobil uygulama olarak hayata geçiriyoruz. Dijital dünyanın trendleri doğrultusunda kullanıcı davranışlarına uygun uygulama ara yüzleriyle kullanıcılara son derece kullanışlı uygulamalar sunuyoruz."
     },
     {
       "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Start-Up Çözümleri",
+      "text": "Girişimlerinizi ihtiyaç duydukları alanlarda destekleyerek hızla büyümelerini sağlıyoruz. Girişimcilerin fikirlerine veya şirketlerine yenilikçi stratejiler geliştirmek için farklı alanlarda çözümler üretiyoruz."
     },
     {
       "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Veri Madenciliği Çözümleri",
+      "text": "İnternette bulunan milyonlarca bilgiden işe yarayanı bulmak haftalarınızı harcar. Veri madenciliği hizmetimiz ile haftalar sürecek olan bilgiyi bulma, işleme ve değerlendirme sürecini biz yapıyoruz."
     },
     {
       "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Veritabanı Yazılımları",
+      "text": "Bilgisayar sistemlerinin altyapısını oluşturan veritabanı ile ulaşılması ve depolanması zor olan bilgiye erişim kolaylığı sağlar. Firmanızın veritabanı yazılımının kurulumu ve desteği konularında yanınızdayız."
     }
   ],
   "Testimonials": [
     {
       "img": "img/blk3.png",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"Bilgilendirilmiş her kişinin Bitcoin hakkında bilgi sahibi olması gerekir çünkü bu dünyanın en önemli gelişmelerinden biri olabilir.\"",
+      "name": "Leon Louw"
     },
     {
       "img": "img/testimonials/02.jpg",
@@ -177,8 +177,8 @@
     },
     {
       "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Saklılık",
+      "text": "Blockchain saklılık içerisinde varlığını sürdürür."
     }
   ]
 }

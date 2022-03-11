@@ -5,8 +5,7 @@ export const Services = (props) => {
         <div className='section-title'>
           <h2>Hizmetlerimiz</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            Devlet ve özel sektörde bir çok faaliyet alanlarımız aşağıda yer almaktadır.
           </p>
         </div>
         <div className='row'>
