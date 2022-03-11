@@ -208,7 +208,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/bnr.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -411,17 +411,17 @@ header .intro-text {
 }
 .testimonial {
   position: relative;
-  padding: 20px;
+  padding: 1px;
 }
 .testimonial-image {
   float: left;
-  margin-right: 15px;
+  margin-right: 50px;
 }
 .testimonial-image,
 .testimonial-image img {
   display: block;
-  width: 64px;
-  height: 64px;
+  width: 75px;
+  height: 75px;
   border-radius: 50%;
 }
 .testimonial-content {

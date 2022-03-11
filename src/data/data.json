@@ -1,15 +1,15 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Blockchain",
+    "paragraph": "Blockchain, tipik bir veri tabanından bilgi depolama biçiminde farklılık gösteren bir tür paylaşımlı veri tabanıdır; blok zincirleri, verileri daha sonra kriptografi yoluyla birbirine bağlanan bloklarda depolar."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "2021'de kurulan şirketimiz Blockchain teknolojileri üzerine çalışmalar yürütmektedir. Peki nedir Blockchain? İşler, bilgi üzerinden ilerler. Bilgi ne kadar hızlı ve doğru bir şekilde alınırsa o kadar iyidir. Blockchain, yalnızca izni olan ağ üyeleri tarafından erişilebilen ve üzerinde değişiklik yapılamayan bir büyük defterde depolanan anlık, paylaşılan ve tamamen şeffaf bilgiler sağladığı için bilginin sunulması için idealdir. Bir blockchain ağı siparişleri, ödemeleri, hesapları, üretimi ve çok daha fazlasını takip edebilir. Üyeler, gerçeğin tek bir görünümünü paylaştığından bir işlemin baştan sona tüm ayrıntılarını görebilirsiniz; böylece yeni verimliliklerin ve fırsatların yanı sıra daha fazla güvene sahip olursunuz.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Adalet Bakanlığının Adliye çalışmaları",
+      "İhale İşlemleri",
+      "Savunma Sanayi",
+      "Tarım alanında vazgeçilmez bir teknoloji"
     ],
     "Why2": [
       "Aliquip ex ea commodo",
@@ -99,7 +99,7 @@
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
+      "img": "img/blk3.png",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
       "name": "John Doe"
     },
@@ -152,9 +152,9 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "address": "Kartal/İstanbul ",
+    "phone": "0216 000 00 00",
+    "email": "info@yagizbilisim.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
@@ -162,18 +162,18 @@
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Güvenli Altyapı",
+      "text": "Blok zincirleri asla değiştirilemez!"
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Şeffaf İşlemler",
+      "text": "Blockchain altyapısından dolayı şeffaf işlemler sunar."
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Hız",
+      "text": "Blockchain yapısı gereği performansı yüksek ve hızlıdır."
     },
     {
       "icon": "fa fa-magic",
