@@ -1,3 +1,5 @@
+
+import MovingComponent from 'react-moving-text'
 export const Navigation = (props) => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
@@ -16,7 +18,16 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
           </button>
           <a className='navbar-brand page-scroll' href='#page-top'>
-            Yagiz Bilisim A.S.
+          <MovingComponent
+          type="bounce"
+          duration="700ms"
+          delay="1s"
+          direction="normal"
+          timing="ease"
+          iteration="1"
+          fillMode="none">
+         Yagiz Bilisim
+        </MovingComponent>
           </a>{' '}
         </div>
 

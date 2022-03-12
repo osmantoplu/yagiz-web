@@ -1,9 +1,23 @@
+import MovingComponent from 'react-moving-text'
 export const Features = (props) => {
   return (
     <div id='features' className='text-center'>
       <div className='container'>
         <div className='col-md-10 col-md-offset-1 section-title'>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <MovingComponent
+          type="bounce"
+          duration="700ms"
+          delay="1s"
+          direction="normal"
+          timing="ease"
+          iteration="1"
+          fillMode="none">
           <h2>Neden Blockchain?</h2>
+        </MovingComponent>
         </div>
         <div className='row'>
           {props.data
