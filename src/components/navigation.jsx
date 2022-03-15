@@ -18,16 +18,9 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
           </button>
           <a className='navbar-brand page-scroll' href='#page-top'>
-          <MovingComponent
-          type="bounce"
-          duration="700ms"
-          delay="1s"
-          direction="normal"
-          timing="ease"
-          iteration="1"
-          fillMode="none">
+         
          Yagiz Bilisim
-        </MovingComponent>
+
           </a>{' '}
         </div>
 
@@ -54,7 +47,7 @@ export const Navigation = (props) => {
         
             <li>
               <a href='#testimonials' className='page-scroll'>
-                Misyonumuz
+                Galeri
               </a>
             </li>
             <li>

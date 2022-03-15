@@ -1,28 +1,59 @@
+import Slider from 'react-animated-slider';
+import React from 'react';
+import './slider2.css';
+import './slider.css';
 
+const content = [
+	{
+	  title: "Blockchain1",
+	  description:
+		"Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. ",
+	  image: "./img/blk.jpg"
+	},
+	{
+	  title: "Blockchain2",
+	  description:
+		"Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. ",
+	  image: "./img/blk2.jpg"
+	},
+	{
+	  title: "Blockchain3",
+	  description:
+		"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum.",
+	  image: "./img/blk3.jpg"
+	},
+	{
+		title: "Blockchain4",
+		description:
+		  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum.",
+		image: "./img/b6.png"
+	  }
+  ];
 export const Testimonials = (props) => {
   return (
-    <div id='testimonials'>
-      <div className='container'>
-        <div className='section-title text-center'>
-          <h2>Şirketimiz Misyon ve Vizyonu</h2>
+      <div id='testimonials'>
+          <div className='overlay'>
+          <div className='section-title text-center'>
+            <h1>Galeri</h1>
+            <br></br>
+        <Slider autoplay={2000}>
+        {content.map((item, index) => (
+        <div
+          key={index}
+          style={{ background: `url('${item.image}') no-repeat center center` }}
+          >
+          <div className="center">
+          <h1>{item.title}</h1>
+          <p>{item.description}</p>
+
+          </div>
+      
         </div>
-          <div className='row'>
-          <h2 style={{textAlign:"center"}} >İŞ RAPORU</h2>
-          <p><b> Projemizde blockchain tabanında blok zinciri sistemini kullanarak 
-          TicaretBakanlığı (tüm gümrük işletmeleri dahil), Gelir İdaresi Başkanlığı, 
-          Türkiyeİhracatçılar Birliği, Sanayi ve Ticaret Odaları, ve Bankaları bu 
-          zincirin halkası yaparak; zaman, insan, yüksek oranda maliyet tasarrufu
-          ile “rüşvet, naylon fatura, işi kasıtlı ve kasıtsız aksatma, bankaların aracı     
-          bankaları bahane ederek gelen dövizi hesapta tutmak için valör oyununu 
-          oynamaları gibi” pek çok sebebin ortadan kalkmış olacak.
-          </b></p>
-          <h2 style={{textAlign:"center"}} > Misyon</h2>
-          <p><b>Bizlere şirketlerinin internet dünyasındaki vitrinlerini emanet edenlere en son yenilikler ışığında hızlı, karlı, güvenli ve etkin çözümler sunabilmektir. Ürün ve hizmet kalitemizi sürekli geliştirerek müşteri talep ve beklentilerini en üst seviyede karşılamak, Güçlü bir iletişim ile müşterilerimizle aramızda duygusal bir bağ yaratmak ve müşteri sadakatini sağlamak, rekabet gücümüzü ve kârlılığımızı arttırmak adına kaliteli hizmet sunmaktır.</b></p>
-          <h2 style={{textAlign:"center"}} > Vizyon</h2>
-          <p><b>Konusunda uzman ve tecrübeli kadromuzla bilgi teknolojileri alanında yenilikçi, dürüst, memnuniyete önem veren ve çoğu kesim tarafından basite indirgenen hizmet alanlarımızın önemini kanıtlayan bir firma olmak. Yazlım ve tasarım sektöründe mutlu ettiği müşterilerle önce İzmir’in, daha sonra da Türkiye’nin yenilikçi, mükemmelliği arayan, saygın ve lider firması olabilmektir.</b></p>
-          
-        </div>
-      </div>
-    </div>
+                ))}
+        </Slider>
+            </div>
+            </div>
+</div>
+
   )
 }
