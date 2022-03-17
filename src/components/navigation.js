@@ -47,7 +47,7 @@ export const Navigation = (props) => {
         
             <li>
               <a href='#testimonials' className='page-scroll'>
-                Galeri
+                Blog
               </a>
             </li>
             <li>
