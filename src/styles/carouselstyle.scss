@@ -1,0 +1,40 @@
+.carousel-item {
+  width: 90% !important;
+  position: relative;
+  height: 100%;
+  border: 1px solid #fefefe;
+  border-top-left-radius: 2vw;
+  border-top-right-radius: 2vw;
+}
+.carousel-item:hover {
+  cursor: pointer;
+}
+
+.carousel-item-icon {
+  margin-top: 15px;
+  height: 20%;
+  width: auto;
+}
+
+.carousel-item-paragraph {
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  align-items: center;
+  position: absolute;
+  bottom: 0px;
+  width: 100% !important;
+  height: 60%;
+  display: block;
+  justify-content: center;
+
+  text-align: justify;
+  padding: 10px;
+}
+
+.carousel-item-title {
+  height: 15%;
+}
+.paragraph {
+  width: 100% !important;
+  opacity: 1 !important;
+}
